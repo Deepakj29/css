@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <style>
+   *{
+         font-family: 'Courier New', Courier, monospace;
+     }
+     h1{
+         color:red;
+         background-color:yellow;
+         text-align: center;
+     }
+     .dj{
+         color:aqua;
+         text-align: left;
+         background-color: blueviolet;
+            }
+      #jj{
+             color: green;
+             background-color:cadetblue;
+            }
+       [class="ii"]
+       {
+            color:coral;
+            text-align:left;
+            background-color: purple;
+        }
+
+ </style>
+    <title>CSS SELECTORS</title>
+</head>
+<body>
+        <h1>Cascading Style Sheet</h1>
+    <div class="dj">
+    <h2>CLASS SELECTOR</h1>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eaque culpa, dolorem, officiis quas quisquam aperiam fugiat earum ipsa obcaecati deleniti corporis fuga fugit! Eum voluptatum aut hic perspiciatis incidunt!</P>
+    <ul>
+        <li>CLASS SELECTOR</li>
+    </ul>
+    </div>
+    <div id="jj">
+        <h3>ID SELECTOR</h3>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eaque culpa, dolorem, officiis quas quisquam aperiam fugiat earum ipsa obcaecati deleniti corporis fuga fugit! Eum voluptatum aut hic perspiciatis incidunt!</P>
+        <ul id="j1">
+            <li class="center">ID SELECTOR</li>
+        </ul>
+        </div>
+        <div class="ii">
+            <h4>ATTRIBUTE SELECTOR</h4>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eaque culpa, dolorem, officiis quas quisquam aperiam fugiat earum ipsa obcaecati deleniti corporis fuga fugit! Eum voluptatum aut hic perspiciatis incidunt!</P>
+            <ul>
+                <li>[ATTRIBUTE]</li>
+                <li>[ATTRIBUTE=VALUE]</li>
+                <li>SELECTOR[ATTRIBUTE]</li>
+                <li>SELECTOR[ATTRIBUTE=VALUE]</li>
+            </ul>
+            </div>
+    
+        <div class="ex">
+                <h5>Cascading Style Sheet</h5>
+                <p>External Style</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odit itaque animi aut voluptatibus iure ullam fuga mollitia. Quae adipisci itaque iste blanditiis enim repudiandae dicta quo tempora dignissimos natus?</p>
+                <ul>
+                    <li>Class SELECTOR</li>
+                </ul>
+            </div>
+      <div id="exi">
+                <h6>Cascading Style Sheet</h6>
+                <p>External Style</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odit itaque animi aut voluptatibus iure ullam fuga mollitia. Quae adipisci itaque iste blanditiis enim repudiandae dicta quo tempora dignissimos natus?</p>
+                <ul>
+                    <li>ID SELECTOR</li>
+                </ul>
+            </div>    
+         <div class="ee">
+                <p1>External Style</p1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odit itaque animi aut voluptatibus iure ullam fuga mollitia. Quae adipisci itaque iste blanditiis enim repudiandae dicta quo tempora dignissimos natus?</p>
+                <ul>
+                    <li>CLASS ATTRIBUTE SELECTOR</li>
+                    <li> [CLASS ATTRIBUTE=VALUE] </li>
+                </ul>
+            </div>  
+     <div id="eei">
+                <p>External Style</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odit itaque animi aut voluptatibus iure ullam fuga mollitia. Quae adipisci itaque iste blanditiis enim repudiandae dicta quo tempora dignissimos natus?</p>
+                <ul>
+                    <li>ID ATTRIBUTE SELECTOR</li>
+                    <li> [ID ATTRIBUTE=VALUE] </li>
+                </ul>
+            </div>    
+         <div class="ppp">
+             <h1 class="oo">TYPE ATTRIBUTE</h1>
+             <p class="pp1">.class[class ATTRIBUTE=value]</p>
+             <p id="kk">.class[id ATTRIBUTE=value]</p>
+             <div id="ttf">
+                 <p class="ww">#id[class attribute=value]
+                 </p>
+             </div>
+         </div>
+         <div class="green">
+            <div class="gr">.Class[ATTRIBUTE]</div>
+                   </div>
+
+         <div id="org">
+             <div id="god">#ID[ATTRIBUTE]</div>
+      </div>
+      <div>
+          <h1>Descendent selector</h1>
+          <p class="rr">Descendent selector:Type class</p>
+           <p id="rrr">Descendent selector:Type id</p>
+      </div>
+    <div class="yy">
+        <p>Descendent selector:Class type</p>
+     </div>
+     <div id="xx">
+         <p>Descendent selector:id type</p>
+     </div>
+     <div id="llp">
+         <p class="mmm">Descendent selector: id class</p>
+         <p id="mmn">Descendent selector:id id </p>
+     </div>
+     <div>
+         <h1>Child Selector</h1>
+         <span>child selector:Type>Type</span>
+         <p class="wow">child selector :type class</p>
+         <p id="wom">child selector:type id </p>
+          <div class="ppo">
+         <p>child selector:class>type</p>
+         <p id="ttr">child selector:class>id</p>
+          <div id="hj">
+         <p>child selector:id>type</p>
+         <p class="jjh">child selector:id>class</p>
+        </div>
+         </div>
+     </div>
+    </body>
+    </html>

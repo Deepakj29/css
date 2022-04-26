@@ -1,0 +1,92 @@
+.ex{
+    color:cyan;
+    background-color: red;
+}
+#exi{
+    color:aqua;
+    background-color: crimson;
+}
+[class="ee"]{
+    color:blueviolet;
+    background-color:green;
+}
+[id="eei"]{
+    color:yellow;
+    background-color:brown;
+}
+.ppp>[class="pp1"]{
+    color:chartreuse;
+    background-color:orangered;
+}
+#ttf>[class="ww"]{
+    color: violet;
+    background-color: tomato;    
+}
+.ppp>[id="kk"]{
+    color:slateblue;
+    background-color: springgreen;
+}
+h1[class="oo"]{
+    color: seagreen;
+    background-color: sandybrown;
+}
+.green[class]{
+background-color: aqua;
+}
+#org[id]{
+    color: springgreen;
+    background-color: darkblue;
+}
+
+div .rr{
+    color:red;
+    background-color:fuchsia;
+}
+div #rrr{
+    color: aqua;
+    background-color: purple;
+}
+.yy p{
+    color:darkmagenta;
+    background-color: darkorange;
+}
+#xx p{
+    color: chartreuse;
+    background-color: crimson;
+}
+#llp .mmm{
+    color:black;
+    background-color: darkorange;
+}
+#llp #mmn{
+    color:brown;
+    background-color: blue;
+}
+div>span{
+    color: blue;
+    background-color: orange;
+}
+div>.wow{
+    color: darkcyan;
+    background-color: aqua;
+}
+div>#wom{
+    color: yellowgreen;
+    background-color: saddlebrown;
+}
+.ppo>p{
+    color:cornflowerblue;
+    background-color:orangered;
+}
+.ppo>#ttr{
+    color: teal;
+    background-color: springgreen;
+}
+#hj>p{
+    color:cyan;
+    background-color:rebeccapurple ;
+}
+#hj>.jjh{
+    color: darkred;
+    background-color: blueviolet;
+}
