@@ -186,6 +186,7 @@
         .row5 .ll {
             display: grid;
             justify-content: center;
+            justify-items: center;
         }
        .row5 div [src] {
             width: 200px;
@@ -195,18 +196,24 @@
             display: grid;
             grid-template-columns: auto auto;
             background-color: orange;
+            margin: 0px 0px 20px 0px;
         }
         .uu1 {
             display: grid;
             grid-template-columns: auto auto;
             background-color: aqua;
+            margin: 0px 0px 20px 0px;
         }
 
         .ss {
             display: grid;
             grid-template-columns: auto auto;
-            padding: 50px;
+            padding: 30px;
             column-gap: 20px;
+        }
+        .ss .bb{
+            display: grid;
+            justify-content: start;
         }
 
         .ss a {
@@ -372,7 +379,7 @@
         </div>
         <div class="ss">
             <div class="uu">
-                <div><img src="gg.jpg"></div>
+                <div class="bb"><img src="gg.jpg"></div>
                 <div>
                     <h2>Lorem, ipsum dolor sit amet consectetur </h2>
                     <a href="">READ MORE</a>
@@ -381,7 +388,7 @@
 
 
             <div class="uu1">
-                <div><img src="gg.jpg"></div>
+                <div class="bb"><img src="gg.jpg"></div>
                 <div>
                     <h2>Lorem, ipsum dolor sit amet consectetur </h2>
                     <a href="">READ MORE</a>
